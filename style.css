@@ -209,13 +209,13 @@ table {
 #grid-col {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows:repeat(26, max-content) auto;
   grid-gap: 2px 2px;
   background-color: #555555;
 }
 
 .funky {
   text-align:center;
-  height:400px;
   padding: 14px;
   background-color: oldlace;
 }
