@@ -278,6 +278,35 @@ table {
     }
 }
 
+.fυnky {
+  text-align:center;
+  padding: 14px;
+  background-color: oldlace;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.fυnky img {
+  width:100%;
+  opacity:0.01;
+}
+
+
+.fυnky img:hover {
+  width:100%;
+  animation-delay: 30s;
+  animation-duration: 1s;
+  animation-name: egg;
+  animation-fill-mode:both;
+}
+
+@keyframes egg {
+	0% { opacity:0.01;}
+	100% { opacity:1;}
+}
+
 @media (max-width: 1024px) {
     body {
         grid-template-columns: 20% minmax(80%, 100%);
