@@ -290,20 +290,21 @@ table {
 
 .fυnky img {
   width:100%;
-  opacity:0.01;
+  opacity:0.005;
 }
 
 
 .fυnky img:hover {
   width:100%;
-  animation-delay: 30s;
-  animation-duration: 1s;
+  animation-delay: 15s;
+  animation-duration: 5s;
   animation-name: egg;
   animation-fill-mode:both;
 }
 
 @keyframes egg {
-	0% { opacity:0.01;}
+	0% { opacity:0;}
+	95% { opacity:0.1;}
 	100% { opacity:1;}
 }
 
